@@ -8,7 +8,7 @@
   nearestPow2.clearBounds = function() {
     // Leaving the stored bounds intact does not cause incorrect results.
     // clearing them, however, slightly speeds up any subsequent calls with too-far-out-of-bounds values (>=1 power in either direction)
-    //   ex: nearestPow2(255)  then  nearestPow2(1023)
+    //   ex: nearestPow2.get(255)  then  nearestPow2.get(1023)
     lower_bound = null
     upper_bound = null
   }
