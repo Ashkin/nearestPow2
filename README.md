@@ -8,7 +8,7 @@ I originally wrote this as a way to speed up (and decrease CPU usage while) snap
 
 ### Usage:
 `nearestPow2.get(value)`
-This fetches the power of 2 to the value you specify.
+Returns the power of 2 nearest to the value you specify.
 
 `nearestPow2.get(value, false)`
 This does the same as above, but disables memoizing.  This slightly increases speed when dealing with very wide-ranging values (>= 1 power in either direction)
